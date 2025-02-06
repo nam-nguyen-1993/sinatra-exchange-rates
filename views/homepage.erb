@@ -1,0 +1,13 @@
+
+<h1>Currency pairs</h1>
+
+<ul>
+  <% @list_cur.each do |a_cur| %>
+    <li>
+      <a href="/<%=a_cur%>">
+        Convert 1 <%= a_cur %> to...
+      </a>
+    </li>
+  <% end %>
+</ul>
+  
